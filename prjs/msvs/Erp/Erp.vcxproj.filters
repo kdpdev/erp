@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4f57f541-d4db-44a2-9aa7-34ba4c47e494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\erp">
+      <UniqueIdentifier>{12a00b1f-336f-4d8b-a049-35ff1c4f6fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{bcbf4e7d-5ff7-4693-b9bb-7373343a8b13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\utils\stream_lines.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\utils\tokenizers.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\erp\department.cpp">
+      <Filter>src\erp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\erp\employee.cpp">
+      <Filter>src\erp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\erp\enterprise.cpp">
+      <Filter>src\erp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\erp\erp_utils.cpp">
+      <Filter>src\erp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\default_commands_handler.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\hardcode.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\utils\common.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\utils\lines.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\utils\stream_lines.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\utils\tokenizers.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\erp\container.h">
+      <Filter>src\erp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\erp\department.h">
+      <Filter>src\erp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\erp\employee.h">
+      <Filter>src\erp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\erp\enterprise.h">
+      <Filter>src\erp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\erp\erp_utils.h">
+      <Filter>src\erp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\erp\reglament.h">
+      <Filter>src\erp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\erp\tasks.h">
+      <Filter>src\erp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\default_commands_handler.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\hardcode.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
